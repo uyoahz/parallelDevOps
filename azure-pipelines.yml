@@ -137,7 +137,7 @@ stages:
       vmImage: 'macOS-latest'
      # these variables only available in ExternalScripts job of MacQACheck
     variables:
-      endpoint: 100
+      FIRST: 100
       SECOND: 20
       OPERATION: 4
 
