@@ -96,7 +96,7 @@ stages:
     pool:
       vmImage: 'windows-latest'
     steps:
-    - checkout: KangsWindowsBatchRepo
+    - checkout: YuWindowsBatchRepo
     - task: BatchScript@1
       inputs:
         filename: 'power.bat'
@@ -141,7 +141,7 @@ stages:
       OPERATION: 4
 
     steps:
-      - checkout: KangsBashCalcRepo
+      - checkout: YuBashCalcRepo
       - task: Bash@3
         displayName: 'run calc'
         inputs:
